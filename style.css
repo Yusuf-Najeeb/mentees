@@ -7,27 +7,43 @@
 body {
   background: teal;
 }
+
 section {
-  border: 1px solid red;
-  height: 400px;
-  display: flex;
-  /* flex-direction: row;
-  flex-wrap: wrap; */
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  gap: 1rem;
-}
-.flex-parent {
-  display: flex;
+  width: 100%;
+  height: 60vh;
+  background: darkgray;
+  position: relative;
 }
 
 div {
-  min-width: 100px;
-  height: 100px;
-  background-color: burlywood;
-  /* margin: 10px; */
-  padding: 20px;
-  text-align: center;
+  width: 200px;
+  height: 200px;
+  color: gray;
+  position: absolute;
+}
+
+/* .red {
+  background: darkred;
+  left: 400px;
+}
+.blue {
+  background-color: darkblue;
+  bottom: 200px;
+}
+.green {
+  background: whitesmoke;
+  bottom: 400px;
+  left: 200px;
+} */
+
+.red {
+  background: darkred;
+  left: 400px;
+}
+.blue {
+  background-color: darkblue;
+}
+.green {
+  background: #fff;
+  left: 200px;
 }
